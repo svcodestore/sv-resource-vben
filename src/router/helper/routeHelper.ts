@@ -188,7 +188,7 @@ export function toRouteItems(
         meta: {
           orderNo: menu.sortNo,
           icon: menu.icon,
-          title: t('routes.permission.' + menu.code),
+          title: t('routes.menu.' + menu.code),
         },
       };
       menu.redirect && (route.redirect = menu.redirect);
